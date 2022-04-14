@@ -26,11 +26,11 @@ import lombok.ToString;
 public class Employees implements Serializable {
 
 	@JsonProperty(value="sr")
-	private String sr;
+	private int sr;
 	@JsonProperty(value="name")
 	private String name;
 	@JsonProperty(value="amount")
-	private String amount;
+	private long amount;
 	@JsonProperty(value="status")
 	private String status;
 	@JsonProperty(value="date")
